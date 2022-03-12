@@ -29,6 +29,8 @@ public class calculater extends HttpServlet {
 				pw.append(num1+" - "+num2+" = "+(num1-num2));
 				if(inp3.equals("3"))
 				pw.append(num1+" * "+num2+" = "+(num1*num2));
+				if(inp3.equals("4"))
+				pw.append(num1+" / "+num2+" = "+(num1/num2));
 				
 					//changes made	
 		
